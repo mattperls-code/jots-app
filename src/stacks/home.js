@@ -77,7 +77,7 @@ const HomeStack = ({ navigation }) => {
 
     return (
         <Screen>
-            <Header title={"Notes"} rightIcon={icons.plus} rightAction={() => {
+            <Header title={"Your Jots"} rightIcon={icons.plus} rightAction={() => {
                 navigation.push("editor", { isNew: true })
             }} />
             <Animated.View style={[styles.searchBarWrapper, {
